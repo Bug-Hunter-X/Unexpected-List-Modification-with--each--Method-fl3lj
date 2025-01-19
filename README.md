@@ -1,0 +1,1 @@
+This repository demonstrates a common pitfall in Groovy when using the `each` method to iterate over lists.  The `each` method modifies the list directly, which can lead to unexpected behavior if you're not careful.  The example shows how summing the list before and after using `each` results in different values, because the `each` loop changes the original list.
